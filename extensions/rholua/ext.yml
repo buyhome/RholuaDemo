@@ -1,0 +1,4 @@
+entry: Init_Rholua_extension	
+javaentry: com.rholua.Rholua
+android_additional_sources_list: ext/rholua/platform/android/ext_build.files
+libraries: ["Rholua"]

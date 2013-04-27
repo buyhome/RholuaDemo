@@ -1,0 +1,30 @@
+#sdk: "D:/RhoStudio/ruby/lib/ruby/gems/1.8/gems/rhodes-3.3.2"
+sdkversion: 3.3.2
+name: RholuaDemo
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: com.rhomobile.rhomobidemo
+  BundleURLScheme: rhomobidemo
+wp:
+  productid: faa52590-9083-0130-73f9-361731d0df79
+symbian:
+  uid: 3834247076
+android:
+  version: 2.1
+extensions:
+  - json
+  - libluajava-1.1.so
+  - rholua
+capabilities:
+  - gps
+  - pim
+  - camera
